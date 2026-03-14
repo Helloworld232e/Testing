@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 240px;
+  background: #1e293b;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.menu li:hover {
+  background: #334155;
+}
+
+.active {
+  background: #22c55e;
+  color: black;
+}
+
+/* Main Area */
+
+.main {
+  flex: 1;
+  padding: 40px;
+}
+
+/* Scan box */
+
+.scan-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.folder-select {
+  font-size: 18px;
+}
+
+.scan-btn {
+  background: #22c55e;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.scan-btn:hover {
+  background: #16a34a;
+}
+
+/* Results */
+
+.results {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.results li {
+  padding: 10px 0;
+}
+
+.safe {
+  color: #22c55e;
+}
+
+.warning {
+  color: #facc15;
+}
+
+.danger {
+  color: #ef4444;
+}
+
+.summary {
+  margin-top: 15px;
+  color: #94a3b8;
+}
